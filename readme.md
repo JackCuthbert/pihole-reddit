@@ -2,14 +2,20 @@
 
 Reddit DNS Blocklist for Pihole.
 
+```
+https://raw.githubusercontent.com/JackCuthbert/pihole-reddit/main/pihole-reddit.txt
+```
+
 ## Usage
 
 1. Login into Pi-hole admin
-2. Navigate to Settings
-3. Expand Pi-Hole's Block Lists
-4. Copy this URL: https://raw.githubusercontent.com/JackCuthbert/pihole-reddit/main/pihole-reddit.txt
-5. Paste the URL in the Edit box and click on Save and update
+2. Navigate to "Adlists"
+3. Copy this URL: `https://raw.githubusercontent.com/JackCuthbert/pihole-reddit/main/pihole-reddit.txt`
+4. Paste the URL in the address box and click on Add
 
-You're done.
+## Other lists
 
-> Inspired by [imkarthikk/pihole-facebook](https://github.com/imkarthikk/pihole-facebook)
+I sometimes maintain other lists:
+
+- [pihole-twitter](https://github.com/JackCuthbert/pihole-twitter): Block Twitter domains
+- [pihole-splogs](https://github.com/JackCuthbert/pihole-splogs): Block low value GitHub or Stack Overflow spam blogs.
